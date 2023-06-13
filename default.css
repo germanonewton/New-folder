@@ -1,0 +1,43 @@
+body {
+    background: rgb(112, 232, 156);
+    background: linear-gradient(90deg, rgb(73, 159, 136) 25%, rgb(78, 114, 180) 75%);
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+.top {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(171, 191, 252);
+    border: black 3px solid;
+    padding: white 5px solid;
+    margin: 5px;
+}
+
+.middle {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(163, 245, 214);
+    border: rgb(0, 0, 0) 3px solid;
+    padding: white 5px solid;
+    margin: 5px;
+}
+
+.bottem {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(215, 174, 238);
+    border: rgb(0, 0, 0) 3px solid;
+    padding: white 5px solid;
+    margin: 5px;
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #8b1abc;
+    color: white;
+    font-size: 30px;
+}
