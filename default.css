@@ -41,3 +41,38 @@ body {
     color: white;
     font-size: 30px;
 }
+
+.decagon {
+    display: flex;
+    position: relative;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background: rgb(28, 89, 118);
+    height: 280px;
+    width: 280px;
+    border: rgb(102, 110, 197);
+}
+
+.rhombus {
+    display: flex;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: rgb(187, 127, 255);
+    height: 280px;
+    width: 280px;
+    border: lightseagreen;
+}
+
+.flex {
+    display: flex;
+    border: lightskyblue 5px solid;
+    height: 280px;
+    width: 280px;
+    position: relative;
+}
+
+.bigflex {
+    display: flex;
+    border: #8b1abc 10px solid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
